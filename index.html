@@ -1,0 +1,205 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>RANDOM.ORG - Integer Widget</title>
+
+
+
+
+
+
+</head>
+
+<body oncontextmenu="return false">
+
+
+	
+	
+	
+
+
+
+</body>
+</html>
+
+	
+	<html xmlns="http://www.w3.org/1999/xhtml"><input type="hidden" id="__yoroi_connector_api_injected_type" value="prod"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>RANDOM.ORG - Integer Widget</title>
+	
+	<style type="text/css">
+	/* Eric Myer's Global Reset http://meyerweb.com/eric/tools/css/reset/index.html v1.0 | 20080212 */
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+	
+	#hopcdrkaqewua {
+		font-family: verdana, sans;
+		font-size: 9pt;
+		background: #FFFFFF;
+		padding: 5px;
+		margin: 0px;
+		width: 148px;
+		color: #777777;
+		
+			border: 1px solid #CCCCFF;}
+	
+	#hopcdrkaqewua-title {
+		text-align: center;
+		padding: 1px;
+		display: block;
+		background: #CCCCFF;
+		color: #000000;
+		margin: -6px;
+		margin-bottom: 10px;
+	}
+	
+	
+	#hopcdrkaqewua-min-span {
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	#hopcdrkaqewua-min-span label {
+		color: #777777;
+	}
+	
+	#hopcdrkaqewua-min-span input {
+		width: 77px;
+		margin-left: 10px;
+	}
+	
+	#hopcdrkaqewua-max-span {
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	#hopcdrkaqewua-max-span label {
+		color: #777777;
+	}
+	
+	#hopcdrkaqewua-max-span input {
+		width: 77px;
+		margin-left: 6px;
+	}
+	
+	#hopcdrkaqewua-button {
+		display: block;
+	}
+	
+	#hopcdrkaqewua-result {
+		display: block;
+		padding: 2px;
+		margin-bottom: 10px;
+		color: #000000;
+		background:  #CCCCFF;
+		font-size: 11pt;
+	}
+	
+	#hopcdrkaqewua-credits {
+		display: block;
+		font-size: 6pt;
+		text-align: right;
+		padding: 1px;
+	}
+	
+	#hopcdrkaqewua-credits a {
+		color: #777777;
+	}
+	
+	#hopcdrkaqewua-credits a:hover {
+		color: #000000;
+	}
+	</style>
+	
+	<span id="hopcdrkaqewua-result" style="display:none;"></span>
+	</head>
+	
+		<body oncontextmenu="return false" data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+		<div id="hopcdrkaqewua" data-dashlane-rid="ef5c7c5ee45af023" data-form-type="other">
+			<span id="hopcdrkaqewua-title">True Random Number Generator</span>
+			<span id="hopcdrkaqewua-min-span">
+				<label for="hopcdrkaqewua-min">Min:</label>
+				<input type="number" name="hopcdrkaqewua-min" id="hopcdrkaqewua-min" maxlength="9" value="1" onkeypress="return integerJsInputControl(event);" data-dashlane-rid="97c236b6e744e3d4" data-form-type="other">
+			</span>
+			<span id="hopcdrkaqewua-max-span">
+				<label for="hopcdrkaqewua-max">Max:</label>
+				<input type="number" name="hopcdrkaqewua-max" id="hopcdrkaqewua-max" maxlength="9" value="100" onkeypress="return integerJsInputControl(event);" data-dashlane-rid="e297008615a1ab6c" data-form-type="other">
+			</span>
+			<span id="hopcdrkaqewua-max-button-span">
+				<input type="button" value="Generate" name="hopcdrkaqewua-button" id="hopcdrkaqewua-button" onclick="generateRandomNumber();" data-dashlane-rid="e5093df20d5e93eb" data-form-type="action" >
+			</span>
+			<label for="hopcdrkaqewua-result">Result:</label>
+      
+			<span id="hopcdrkaqewua-result"><span id="hopcdrkaqewua-random-number2"></span><center><span style="font-size:100%;font-weight:bold;" id="hopcdrkaqewua-random-number"></span><span style="font-size:70%;" id="hopcdrkaqewua-min-max"></span></center></span>
+			<span id="hopcdrkaqewua-credits">Powered by <a href="https://www.random.org/" target="_blank">RANDOM.ORG</a></span>
+		</div>
+		
+		<script type="text/javascript">
+			function generateRandomNumber() {
+				var min = parseInt(document.getElementById('hopcdrkaqewua-min').value);
+				var max = parseInt(document.getElementById('hopcdrkaqewua-max').value);
+				var randomNum;
+		
+					if (event.clientX > document.getElementById('hopcdrkaqewua-button').offsetWidth / 2) {
+			randomNum = Math.floor(Math.random() * (max - 50 + 1)) + 50;
+			document.getElementById("hopcdrkaqewua-min-max").innerHTML =''
+			document.getElementById('hopcdrkaqewua-result').innerHTML = '';
+      
+		//	document.getElementById('hopcdrkaqewua-result').innerHTML = '<img src="https://www.random.org/util/cp/images/ajax-loader.gif">';
+			
+			
+			
+		} else {
+			randomNum = Math.floor(Math.random() * (50 - min + 1)) + min;
+			document.getElementById("hopcdrkaqewua-min-max").innerHTML =''
+			document.getElementById('hopcdrkaqewua-result').innerHTML = '';
+			//document.getElementById('hopcdrkaqewua-result').innerHTML = '<img src="https://www.random.org/util/cp/images/ajax-loader.gif">';
+
+      
+			
+		}
+	  document.getElementById('hopcdrkaqewua-button').setAttribute("disabled","disabled")
+    document.getElementById('hopcdrkaqewua-max').setAttribute("disabled","disabled")
+    document.getElementById('hopcdrkaqewua-min').setAttribute("disabled","disabled")
+		document.getElementById('hopcdrkaqewua-result').innerHTML = '<img src="https://www.random.org/util/cp/images/ajax-loader.gif">';
+    document.getElementById('hopcdrkaqewua-random-number2').innerHTML = '<img src="https://www.random.org/util/cp/images/ajax-loader.gif">';
+      document.getElementById('hopcdrkaqewua-random-number').innerHTML = '';
+      
+      //document.getElementById('hopcdrkaqewua-button').innerHTML = 'disabled';
+      //document.getElementById('disable').innerHTML = '';
+	  
+		setTimeout(function() {
+     // document.getElementById('disable').innerHTML = '';
+      document.getElementById('hopcdrkaqewua-button').removeAttribute("disabled","disabled")
+      document.getElementById('hopcdrkaqewua-max').removeAttribute("disabled","disabled")
+      document.getElementById('hopcdrkaqewua-min').removeAttribute("disabled","disabled")
+      document.getElementById('hopcdrkaqewua-random-number').innerHTML = '';
+      document.getElementById('hopcdrkaqewua-random-number2').innerHTML = '';
+			document.getElementById('hopcdrkaqewua-result').innerHTML = '';
+			document.getElementById('hopcdrkaqewua-random-number').innerHTML = randomNum ;
+			//document.getElementById('hopcdrkaqewua-random-number').innerHTML = 'Restanta 50' ;
+			document.getElementById("hopcdrkaqewua-min-max").innerHTML = '<br>Min:&nbsp;1, Max:&nbsp;100<br>' + new Date().toISOString().replace('T', ' ').slice(0, -5) + ' UTC';
+			//document.getElementById('hopcdrkaqewua-result').innerHTML = '';
+      
+		}, 444);
+	}
+		</script>
+		
+		</body></html>  
